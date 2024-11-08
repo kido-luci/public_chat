@@ -21,3 +21,4 @@ class UserManagerCubit extends Cubit<UserManagerState> {
         displayName: userDetail.data()?.displayName));
   }
 }
+  

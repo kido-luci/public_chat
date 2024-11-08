@@ -6,6 +6,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:public_chat/_shared/bloc/user_manager/user_manager_cubit.dart';
 import 'package:public_chat/_shared/data/chat_data.dart';
 import 'package:public_chat/_shared/widgets/chat_bubble_widget.dart';
+import 'package:public_chat/_shared/widgets/language_button_widget.dart';
 import 'package:public_chat/_shared/widgets/message_box_widget.dart';
 import 'package:public_chat/features/chat/bloc/chat_cubit.dart';
 import 'package:public_chat/utils/locale_support.dart';
@@ -22,6 +23,7 @@ class PublicChatScreen extends StatelessWidget {
       child: Scaffold(
           appBar: AppBar(
             title: Text(context.locale.publicRoomTitle),
+            actions: const [LanguageButtonWidget()],
           ),
           body: Column(
             children: [

@@ -1,4 +1,7 @@
 {
     "login":"Login",
-    "publicRoomTitle": "Public Room"
+    "publicRoomTitle": "Public Room",
+    "selectLanguage": "Select language",
+    "searchLanguage": "Search language",
+    "languagesLoadFailed": "Failed to load languages"
 }
